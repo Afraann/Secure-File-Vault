@@ -1,0 +1,9 @@
+/* Use the Inter font family */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Style for the file input button */
+input[type="file"]::file-selector-button {
+    @apply bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg cursor-pointer hover:bg-indigo-700 transition-colors duration-300;
+}
